@@ -9,7 +9,7 @@ export const middleware = async (req: NextRequest) => {
     data: { session },
   } = await supabase.auth.getSession();
 
-  if (req.nextUrl.pathname === "/sign-up") {
+  if (req.nextUrl.pathname === "/sign-up" && !session?.user) {
     return res;
   }
 
