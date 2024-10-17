@@ -48,6 +48,7 @@ Go to your `Project Settings` tab, there you can see Configuration -> API. To be
 
 ![image](https://github.com/user-attachments/assets/9e251744-5f23-4162-a521-33f0540d6b30)
 You can create a `middleware.js/ts` so supabase automatically detects these keys or you can call it whenever you need to use the keys.
+
 note: these keys that I have have been censored to avoid misusage.
 
 Once you have created a project, and supabase is done setting up your project, you should see this screen:
@@ -71,6 +72,7 @@ You can add functions to your database, on the database tab -> Database Manageme
 You can use that function as a trigger, on the database tag -> Database Management ->  Triggers:
 
 ![image](https://github.com/user-attachments/assets/ee44e1cc-34b5-4451-a8e3-02ede6679168)
+
 note: you can also use the SQL Editor to create functions or triggers, the auth schema, doesn't allow users to directly create triggers,
 but you can bypass that using the sql editor:
 
